@@ -1,0 +1,16 @@
+http://go-database-sql.org
+https://github.com/golang/go/wiki/SQLInterface
+https://github.com/golang/go/wiki/SQLDrivers
+https://github.com/alexbrainman/odbc/wiki
+
+https://github.com/golang/go/wiki
+
+https://golang.org/pkg/database/sql
+
+consider: https://github.com/moovweb/gvm
+
+document settings of:
+go env
+
+https://scene-si.org/2018/01/25/go-tips-and-tricks-almost-everything-about-imports/
+

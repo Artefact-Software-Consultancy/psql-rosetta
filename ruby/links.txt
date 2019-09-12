@@ -1,0 +1,13 @@
+http://www.ch-werner.de/rubyodbc/
+https://github.com/larskanis/ruby-odbc
+http://rubyforge.org/projects/odbc-rails
+http://ruby-dbi.rubyforge.org/
+
+https://richonrails.com/articles/using-odbc-in-ruby
+
+https://github.com/jeremyevans/sequel
+
+
+I love crappy packaging:
+https://stackoverflow.com/questions/1419397/rubyodbc-cannot-allocate-sqlhenv/2631898
+

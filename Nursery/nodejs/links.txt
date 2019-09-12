@@ -1,0 +1,1 @@
+https://www.npmjs.com/package/odbc/v/2.2.0

@@ -1,0 +1,3 @@
+https://docs.actian.com/psql/psqlv13/index.html#page/btrieve2api/btrieve2api.htm
+https://docs.actian.com/psql/btrieve2v13/html/
+
