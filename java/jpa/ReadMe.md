@@ -1,6 +1,7 @@
 # Java Persistence API (JPA)
 
 According to: https://docs.actian.com/psql/psqlv13/index.html#page/welcome%2Flibwelcome.htm
+this is an Access Method. However the overview is the only place in the manuals where it gets mentioned.
 
 also see: https://www.eclipse.org/eclipselink/
 
