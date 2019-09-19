@@ -6,10 +6,8 @@ Module Module1
 	Dim dr As OdbcDataReader
 	Dim connectionString As String
 	Dim sql As String
-	Rem connectionString = "DSN=PracticalLotusScriptTest;UID=Chester;Pwd=Tester;"
 	Rem connectionString = "DSN=Demodata;"
 	connectionString = "Driver=PervasiveSQL;ServerName=localhost;dbq=@Demodata;"
-	Rem sql = "SELECT CustomerID, ContactName, ContactTitle FROM Customers"
 	sql = "SELECT COUNT(*) FROM Person"
 	console.writeline("This is a DSN based ODBC example")
 	console.writeline("About to connect to the database using ConnectionString: " + connectionString)

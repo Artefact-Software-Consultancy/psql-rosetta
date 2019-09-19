@@ -6,9 +6,7 @@ Module Module1
 	Dim dr As OdbcDataReader
 	Dim connectionString As String
 	Dim sql As String
-	Rem connectionString = "DSN=PracticalLotusScriptTest;UID=Chester;Pwd=Tester;"
 	connectionString = "DSN=Demodata;"
-	Rem sql = "SELECT CustomerID, ContactName, ContactTitle FROM Customers"
 	sql = "SELECT COUNT(*) FROM Person"
 	console.writeline("This is a DSN based ODBC example")
 	console.writeline("About to connect to the database using ConnectionString: " + connectionString)
