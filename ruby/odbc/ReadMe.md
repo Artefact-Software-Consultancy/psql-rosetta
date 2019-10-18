@@ -9,13 +9,29 @@
 
 Only Sequel seems to be not an abandoned project.
 
-Implemented:
-* native ODBC DSN-based
-* sequel ODBC DSN-based
-* DBI ODBC DSN-based
+### Requirements
 
-To-Do:
-above three DSN less --> done, not tested for obvious reason (see below)
+* odbc   : gem install ruby-odbc
+* dbi    : gem install dbi
+           gem install dbd-odbc
+* sequel : gem install sequel
+Obviously the odbc gem is also required for DBI and Sequel when using ODBC.
+
+## Implementation
+
+Both DSN-based and DSN-less methods have been implement for: ODBC, DBI, Sequel.
+No examples for DataMapper/DataObjects are provided. 
+
+### Windows
+All code is tested using Ruby on Windows (10 Pro) with both Pervasive.SQL v13 (remote) and ZEN v14 (local).
+Ruby was installed using the 64-bit Windows installer. All required gems were manually installed.
+
+### Linux
+No testing so far, as I dislike alternative ecosystems in software. 
+The ruby-odbc package in Debian is troublesome. See below.
+Might work with other distributions or by manually installing gems.
+
+## Major issues
 
 >>> BIG FAT WARNING <<<
 All this code is not properly tested. Why?
