@@ -16,6 +16,9 @@ Luckely I have overcome this and wrapped it up in build script.
 For reference purposes only links to SWIG Btrieve API 2 support for Python are listed below as Python is the only language which Actian more or less bottered to describe.
 
 ### Links
+* Neil Hughes his website about using Perl in a Windows environment to access Pervasive.SQL : (http://www.support4omega.co.uk/PSQL_Scripting/index.html)
+
+### Other links
 * (https://www.actian.com/company/blog/python-btrieve-2-windows-accessing-actian-zen-data-no-sql)
 * (http://www.goldstarsoftware.com/papers/AccessingZenFromPythonOnWindows.pdf)
 * (http://www.goldstarsoftware.com/papers/AccessingZenFromPythonOnRaspberryPi.pdf)

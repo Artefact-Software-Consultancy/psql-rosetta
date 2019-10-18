@@ -20,6 +20,7 @@ All programminglanguages have a ReadMe markdown file in their root directory des
 
 ## Missing files versus Copyright
 The goals was not to infringe any copyrights, so headers must be copied from SDKs which can be downloaded from the Actian website. The same goes for example code which can be copy/pasted from the website. It would be great if example code (& headers) could be made available from a repository.
+When looking around on Github one can find copyrighted header files. I leave it to Actian to add them.
 
 # Improvements
 I very much welcome improvements, comments and other contributions.
@@ -32,7 +33,8 @@ Personally I can think of a view:
 * Code must be written or adapted for other platforms. Notably: Mac, IOS, Android
 * Some obvious languages/platforms are missing. Notably: Win/VS: c#, VB.net, Win/Embarcadero C++, Win/MingW or other GNU C/C++, IOS/Objective C, Android/Java, Mac/making the bash-shell scripts compatible/supportive.
 * Also some languages which used to be supported/were important do not have sample code yet. What springs to mind: Cobol, Delphi, ... ? And some are no longer important: (Visual) Basic (pre .net), Pascal, Turboc (DOS), Watcom C/C++ (DOS)
-* Integrated platforms are not listed. For example [Magic](https://www.magicsoftware.com) It probably makes no sense in listing them. Other platforms used in the past: [Clarion](http://www.softvelocity.com/) and [Power Builer](https://www.powerbuilder.eu/)
+* Some 'languages' are not very demonstratable as they seem to require severe boilerplating, project management and/or integration in an IDE. ASP.NET being an example.
+* Integrated platforms are not listed. For example [Magic](https://www.magicsoftware.com) It probably makes no sense in listing them. Other platforms used in the past: [Clarion](http://www.softvelocity.com/) and [Power Builder](https://www.powerbuilder.eu/)
 * Another subject which requires attention is web-based development. One can think of: Windows/ASP, Python/Flask, Python/Django, Ruby/Ruby-on-rails and Javascript, NodeJS. Optionally expanded by new kids on the block such as Dart/Flutter, Meteor, etc. although a lot of them are based on Javascript.
 * Drivers. Currently especially one springs to mind: [SQLAlchemy-Pervasive](https://github.com/SacNaturalFoods/sqlalchemy-pervasive) : it needs some serious TLC.
 * Currently a strong focus is on database connectivity.
@@ -48,8 +50,9 @@ See the Credits.md file. This file applies to the entire project.
 ## License
 See the License.md file. This file applies to the entire project.
 
-## Warning
+## Warnings
 For sake of completeness and uniformity all access methods mentioned in the programmers manual are listed as options for all languages. The combinations can be quite absurd or exotic. Obviously especially those are not implemented (yet) and/or properly tested.
 All code and documentation in this repository is provided as is.
-
-
+By no means I am an expert in all languages provided. The goal is to at least deliver working code which is a very low standard, but not uncommon unfortunately. Writing about programming versus Software Engineering can fill up bookshelves. Lets no go there now.
+Hopefully the quality of code will increase over time if people being expert in a certain language participate and improve code.
+Most code is tested on Linux only unless stated otherwise. To improve maturity and clearity on this subject test result tables have been added.
