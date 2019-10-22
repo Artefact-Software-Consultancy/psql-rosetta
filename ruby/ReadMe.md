@@ -58,11 +58,11 @@ See above
 Notes to table:
 * ODBC
   * native ODBC : done
-  * DBI/DBD : not done / will not do : deprecated
+  * DBI/DBD : done
   * Sequel : done
   * DataObject: : not done
 * ODBC DSN-less
   * native ODBC : done
-  * DBI/DBD : not done / will not do : deprecated
+  * DBI/DBD : done
   * Sequel : done
   * DataObject: : not done

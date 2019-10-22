@@ -35,3 +35,7 @@ Should work under Windows as well. Not tested yet.
 * write example code using the ActiveX compontents : used to be provided in the SDK
 * write example code using the Btrieve API : used to be provided in the SDK
 * write example code using a datagrid using ODBC. Or make a reference to it: there will most likely be plenty examples on the net
+
+# Links
+* (http://vb.net-informations.com/ado.net/vb.net-ado.net-tutorial.htm)
+
